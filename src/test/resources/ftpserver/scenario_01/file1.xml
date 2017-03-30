@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:iso:std:iso:20022:tech:xsd:camt.054.001.01">
+	<BkToCstmrDbtCdtNtfctnV01>
+		<GrpHdr>
+			<MsgId>12345//1</MsgId>
+			<CreDtTm>2015-12-01T01:09:30</CreDtTm>
+		</GrpHdr>
+		<Ntfctn>
+			<Id>12345//1//1</Id>
+			<CreDtTm>2015-12-01T01:09:30</CreDtTm>
+			<Acct>
+				<Id>
+					<PrtryAcct>
+						<Id>88001110000001</Id>
+					</PrtryAcct>
+				</Id>
+				<Ccy>GBP</Ccy>
+			</Acct>
+			<TxsSummry>
+				<TtlNtries>
+					<NbOfNtries>5</NbOfNtries>
+					<Sum>100000.00</Sum>
+				</TtlNtries>
+				<TtlCdtNtries>
+					<NbOfNtries>5</NbOfNtries>
+					<Sum>100000.00</Sum>
+				</TtlCdtNtries>
+				<TtlDbtNtries>
+					<NbOfNtries>0</NbOfNtries>
+					<Sum>0.00</Sum>
+				</TtlDbtNtries>
+			</TxsSummry>
+			<Ntry>
+				<Amt Ccy="GBP">20000.00</Amt>
+				<CdtDbtInd>CRDT</CdtDbtInd>
+				<Sts>BOOK</Sts>
+				<BookgDt>
+					<Dt>2015-12-01</Dt>
+				</BookgDt>
+				<BkTxCd>
+					<Prtry>
+						<Cd>STO UKBA CR 41267</Cd>
+					</Prtry>
+				</BkTxCd>
+				<TxDtls>
+					<Refs>
+						<EndToEndId>XG7648647955305</EndToEndId>
+						<TxId>ZYX321</TxId>
+						<Prtry>
+							<Tp>STO REF</Tp>
+							<Ref>0001000001</Ref>
+						</Prtry>
+					</Refs>
+					<RltdPties>
+						<Dbtr>
+							<Nm>Westwood District Health Authority</Nm>
+							<PstlAdr>
+								<AdrLine>Matheson House</AdrLine>
+								<Ctry>GB</Ctry>
+							</PstlAdr>
+						</Dbtr>
+						<DbtrAcct>
+							<Id>
+								<PrtryAcct>
+									<Id>77229993600446</Id>
+								</PrtryAcct>
+							</Id>
+						</DbtrAcct>
+						<Cdtr>
+							<Nm>ABC Surgical Supplies PLC</Nm>
+						</Cdtr>
+						<CdtrAcct>
+							<Id>
+								<PrtryAcct>
+									<Id>88001110000001</Id>
+								</PrtryAcct>
+							</Id>
+						</CdtrAcct>
+					</RltdPties>
+					<RmtInf>
+						<Strd>
+							<AddtlRmtInf>NO REF</AddtlRmtInf>
+						</Strd>
+						<Strd>
+							<AddtlRmtInf>WestwoodDtHlthAuth//CON9102980</AddtlRmtInf>
+						</Strd>
+					</RmtInf>
+					<RltdDts>
+						<TxDtTm>2015-12-01T00:22:15</TxDtTm>
+					</RltdDts>
+					<AddtlTxInf>5031428262007062630ABC SURG SUPP</AddtlTxInf>
+				</TxDtls>
+				<AddtlNtryInf>COMPLETE//0000//001//CREDIT</AddtlNtryInf>
+			</Ntry>
+			<Ntry>
+				<Amt Ccy="GBP">20000.00</Amt>
+				<CdtDbtInd>CRDT</CdtDbtInd>
+				<Sts>BOOK</Sts>
+				<BookgDt>
+					<Dt>2015-12-01</Dt>
+				</BookgDt>
+				<BkTxCd>
+					<Prtry>
+						<Cd>STO UKBA CR 41267</Cd>
+					</Prtry>
+				</BkTxCd>
+				<TxDtls>
+					<Refs>
+						<EndToEndId>XQ0251523855477</EndToEndId>
+						<TxId>FED987</TxId>
+						<Prtry>
+							<Tp>STO REF</Tp>
+							<Ref>0001000002</Ref>
+						</Prtry>
+					</Refs>
+					<RltdPties>
+						<Dbtr>
+							<Nm>Westwood District Health Authority</Nm>
+						</Dbtr>
+						<DbtrAcct>
+							<Id>
+								<PrtryAcct>
+									<Id>77229993600446</Id>
+								</PrtryAcct>
+							</Id>
+						</DbtrAcct>
+						<Cdtr>
+							<Nm>ABC Surgical Supplies PLC</Nm>
+						</Cdtr>
+						<CdtrAcct>
+							<Id>
+								<PrtryAcct>
+									<Id>88001110000001</Id>
+								</PrtryAcct>
+							</Id>
+						</CdtrAcct>
+					</RltdPties>
+					<RmtInf>
+						<Strd>
+							<AddtlRmtInf>NO REF</AddtlRmtInf>
+						</Strd>
+						<Strd>
+							<AddtlRmtInf>WestwoodDtHlthAuth//REGSURGSUP</AddtlRmtInf>
+						</Strd>
+					</RmtInf>
+					<RltdDts>
+						<TxDtTm>2015-12-01T00:22:15</TxDtTm>
+					</RltdDts>
+					<AddtlTxInf>5031428262007062630ABC Surg Supp1</AddtlTxInf>
+				</TxDtls>
+				<AddtlNtryInf>COMPLETE//0000//001//CREDIT</AddtlNtryInf>
+			</Ntry>
+			<Ntry>
+				<Amt Ccy="GBP">20000.00</Amt>
+				<CdtDbtInd>CRDT</CdtDbtInd>
+				<Sts>BOOK</Sts>
+				<BookgDt>
+					<Dt>2015-01-12</Dt>
+				</BookgDt>
+				<BkTxCd>
+					<Prtry>
+						<Cd>STO UKBA CR 41267</Cd>
+					</Prtry>
+				</BkTxCd>
+				<TxDtls>
+					<Refs>
+						<EndToEndId>XM1501033601243</EndToEndId>
+						<TxId>CBA321</TxId>
+						<Prtry>
+							<Tp>STO REF</Tp>
+							<Ref>0001000003</Ref>
+						</Prtry>
+					</Refs>
+					<RltdPties>
+						<Dbtr>
+							<Nm>Westwood District Health Authority</Nm>
+						</Dbtr>
+						<DbtrAcct>
+							<Id>
+								<PrtryAcct>
+									<Id>77229993600446</Id>
+								</PrtryAcct>
+							</Id>
+						</DbtrAcct>
+						<Cdtr>
+							<Nm>ABC Surgical Supplies PLC</Nm>
+						</Cdtr>
+						<CdtrAcct>
+							<Id>
+								<PrtryAcct>
+									<Id>88001110000001</Id>
+								</PrtryAcct>
+							</Id>
+						</CdtrAcct>
+					</RltdPties>
+					<RmtInf>
+						<Strd>
+							<AddtlRmtInf>NO REF</AddtlRmtInf>
+						</Strd>
+						<Strd>
+							<AddtlRmtInf>WestwoodDtHlthAuth//ABC9102980</AddtlRmtInf>
+						</Strd>
+					</RmtInf>
+					<RltdDts>
+						<TxDtTm>2015-12-01T00:22:15</TxDtTm>
+					</RltdDts>
+					<AddtlTxInf>5031428262007062630ABC SURG SUP2</AddtlTxInf>
+				</TxDtls>
+				<AddtlNtryInf>COMPLETE//0000//001//CREDIT</AddtlNtryInf>
+			</Ntry>
+			<Ntry>
+				<Amt Ccy="GBP">20000.00</Amt>
+				<CdtDbtInd>CRDT</CdtDbtInd>
+				<Sts>BOOK</Sts>
+				<BookgDt>
+					<Dt>2015-12-01</Dt>
+				</BookgDt>
+				<BkTxCd>
+					<Prtry>
+						<Cd>STO UKBA CR 41267</Cd>
+					</Prtry>
+				</BkTxCd>
+				<TxDtls>
+					<Refs>
+						<EndToEndId>XD9269320688896</EndToEndId>
+						<TxId>CBA421</TxId>
+						<Prtry>
+							<Tp>STO REF</Tp>
+							<Ref>0001000004</Ref>
+						</Prtry>
+					</Refs>
+					<RltdPties>
+						<Dbtr>
+							<Nm>Westwood District Health Authority</Nm>
+						</Dbtr>
+						<DbtrAcct>
+							<Id>
+								<PrtryAcct>
+									<Id>77229993600446</Id>
+								</PrtryAcct>
+							</Id>
+						</DbtrAcct>
+						<Cdtr>
+							<Nm>ABC Surgical Supplies PLC</Nm>
+						</Cdtr>
+						<CdtrAcct>
+							<Id>
+								<PrtryAcct>
+									<Id>88001110000001</Id>
+								</PrtryAcct>
+							</Id>
+						</CdtrAcct>
+					</RltdPties>
+					<RmtInf>
+						<Strd>
+							<AddtlRmtInf>NO REF</AddtlRmtInf>
+						</Strd>
+						<Strd>
+							<AddtlRmtInf>WestwoodDtHlthAuth//ABD9102980</AddtlRmtInf>
+						</Strd>
+					</RmtInf>
+					<RltdDts>
+						<TxDtTm>2015-12-01T00:22:15</TxDtTm>
+					</RltdDts>
+					<AddtlTxInf>5031428262007062630ABC SURG SUP4</AddtlTxInf>
+				</TxDtls>
+				<AddtlNtryInf>COMPLETE//0000//001//CREDIT</AddtlNtryInf>
+			</Ntry>
+			<Ntry>
+				<Amt Ccy="GBP">20000.00</Amt>
+				<CdtDbtInd>CRDT</CdtDbtInd>
+				<Sts>BOOK</Sts>
+				<BookgDt>
+					<Dt>2015-12-01</Dt>
+				</BookgDt>
+				<BkTxCd>
+					<Prtry>
+						<Cd>STO UKBA CR 41267</Cd>
+					</Prtry>
+				</BkTxCd>
+				<TxDtls>
+					<Refs>
+						<EndToEndId>XV4624478871430</EndToEndId>
+						<TxId>CBA521</TxId>
+						<Prtry>
+							<Tp>STO REF</Tp>
+							<Ref>0001000005</Ref>
+						</Prtry>
+					</Refs>
+					<RltdPties>
+						<Dbtr>
+							<Nm>Westwood District Health Authority</Nm>
+						</Dbtr>
+						<DbtrAcct>
+							<Id>
+								<PrtryAcct>
+									<Id>77229993600446</Id>
+								</PrtryAcct>
+							</Id>
+						</DbtrAcct>
+						<Cdtr>
+							<Nm>ABC Surgical Supplies PLC</Nm>
+						</Cdtr>
+						<CdtrAcct>
+							<Id>
+								<PrtryAcct>
+									<Id>88001110000001</Id>
+								</PrtryAcct>
+							</Id>
+						</CdtrAcct>
+					</RltdPties>
+					<RmtInf>
+						<Strd>
+							<AddtlRmtInf>NO REF</AddtlRmtInf>
+						</Strd>
+						<Strd>
+							<AddtlRmtInf>WestwoodDtHlthAuth//ABE9102980</AddtlRmtInf>
+						</Strd>
+					</RmtInf>
+					<RltdDts>
+						<TxDtTm>2015-12-01T00:22:15</TxDtTm>
+					</RltdDts>
+					<AddtlTxInf>5031428262007062630ABC SURG SUP5</AddtlTxInf>
+				</TxDtls>
+				<AddtlNtryInf>COMPLETE//0000//001//CREDIT</AddtlNtryInf>
+			</Ntry>
+		</Ntfctn>
+	</BkToCstmrDbtCdtNtfctnV01>
+</Document>
